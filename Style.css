@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.generator{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+body{
+    background-color: #ff0f97;
+}
+button{
+    padding: 5px 5px 10px 5px;
+    border: 0;
+    background-color: #e600ff;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    animation-name: button_hover;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+@keyframes button_hover {
+    0%{
+        background-color: #e600ff;
+    }
+    10%{
+        background-color: #19bf59;
+    }
+    20%{
+        background-color: #00ff62;
+    }
+    50%{
+        background-color: #1d6ef0;
+    }
+    70%{
+        background-color: #b0b3b8;
+    }
+    90%{
+        background-color: #ff6600;
+    }
+}
